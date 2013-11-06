@@ -1,0 +1,20 @@
+[rhel-dvd-server]
+name=Red Hat Enterprise Linux - DVD Server Repository
+baseurl=file:///mnt/rhel_dvd/Server
+enabled=1
+gpgkey=file:///mnt/rhel_dvd/RPM-GPG-KEY-redhat-release
+gpgcheck=1
+
+[rhel-dvd-lb]
+name=Red Hat Enterprise Linux - DVD Load Balancer Repository
+baseurl=file:///mnt/rhel_dvd/LoadBalancer
+enabled=1
+gpgkey=file:///mnt/rhel_dvd/RPM-GPG-KEY-redhat-release
+gpgcheck=1
+
+[rhel-dvd-ha]
+name=Red Hat Enterprise Linux - DVD High Availability Repository
+baseurl=file:///mnt/rhel_dvd/HighAvailability
+enabled=1
+gpgkey=file:///mnt/rhel_dvd/RPM-GPG-KEY-redhat-release
+gpgcheck=1
